@@ -40,3 +40,40 @@ ul li a {
 ul li a:hover {
     color: #ec5222;
 }
+
+.card {
+    background-color: #5add0e;
+    margin: 20px;
+    border-radius: 7px;
+    border: 3px solid #000000;
+    box-shadow: 8px 6px 6px #000000b1;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex: 1 1 calc(250px - 20px);
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
