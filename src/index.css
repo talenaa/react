@@ -1,0 +1,42 @@
+
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    box-shadow: 8px 10px 6px #410b0bd2;
+    margin: 10px;
+    background-color: rgba(124, 124, 124, 0.682);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #1e2a38;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 0 1em;
+    box-shadow: 8px 10px 6px #470a0a;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5 ease;
+    padding: 0 10px;
+}
+
+ul li a:hover {
+    color: #ec5222;
+}
