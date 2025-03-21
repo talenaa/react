@@ -4,9 +4,7 @@ function Card(){
     return(
         <div className="card">
             <img src={profilePic} alt="profile picture"></img>
-            <div className='text'>
-                <h2>Talena</h2>
-            </div>
+            <h2>Talena</h2>
             <p>I like to play drums and play volleyball</p>
         </div>
     );
