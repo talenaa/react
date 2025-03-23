@@ -75,13 +75,3 @@ ul li a:hover {
     height: auto;
     border-radius: 50%;
 }
-
-button {
-    background-color: #470a0a;
-    color: #fff;
-    font-family: arial;
-    border-radius: 0.4rem;
-    border: 2px #970000 solid;
-    padding: 10px 20px;
-    cursor: pointer;
-}
