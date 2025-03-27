@@ -75,3 +75,12 @@ ul li a:hover {
     height: auto;
     border-radius: 50%;
 }
+
+.student {
+    font-family: arial;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: #6988ab;
+}
